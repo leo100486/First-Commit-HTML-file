@@ -1,0 +1,92 @@
+.fondo {
+    background-color: black;
+}
+
+.miTexto {
+  font-size: 5em;
+  color: white;
+  
+}
+
+.miTextoD {
+    font-size: 20px;
+    color:whitesmoke; 
+}
+.miTextor {
+  font-size: 20px;
+  color:whitesmoke; 
+}
+.logo{
+  width: 200px;
+  height: 150px;
+}
+.log1{
+  width: 125px;
+  height: 115px;
+}
+.log2{
+  width: 225px;
+  height: 125px;
+
+}
+.cards{
+  border:2px solid white;
+  width:10vw;
+  border-radius: 15px;
+  padding: 4em 4em 4em 6em;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  align-items: center;
+}
+.recuadro{
+  border:2px solid whitesmoke;
+  width: 15vw;
+  padding: 0em 2em 0em 3em;
+  border-radius: 15px;
+  transition: 1s;
+}
+.recuadro:hover{
+background-color: gray;
+}
+.title{
+  font-size: 20px;
+  color:aliceblue;
+
+}
+.miTextoD {
+  font-size: 20px;
+  color:whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+#tituloPrincipal{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulo{
+  font-size: 40px;
+}
+
+#cards-conteiner{
+  width: 85vw;
+  margin: auto;
+  margin-top: 2.5em;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+
+
+

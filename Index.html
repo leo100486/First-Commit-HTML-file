@@ -2,54 +2,70 @@
 <html lang="es">
     <head>
         <title>Mi primer página web</title>
+        <link rel="stylesheet"  href="./reset.css"/>
+        <link rel="stylesheet"  href="./estilos.css" />
     </head>
 
-    <body>
+    <body class="fondo">
 
         <header>
+    <p class="miTexto" id="tituloPrincipal"> Lizzard Tattoo Studio</p>
 
-            <h1>Lizzard Tattoo Studio</h1>
-
+           
+<P class="miTextoD">
         <span> -Flashes tattoos </span>
         <span> -Tradicional </span> 
         <span> -Dotwork </span>
         <span> -DarkWork </span>
-
+      </P>
         </header>
         
-<hr />
+
        
-<main>
-
-  <img src="./tattoo.jpg"/>
-   
+<main class="miTextor">
+<div id="cards-conteiner">
+<div class="cards">
+  <h1 class="title">proyecto</h1>
+    <img src="./tattoo.jpg" class="logo"/>
+</div>
+<div class="cards">
+  <h1 class="title">ejemplo</h1>
+    <img src="./catrina.jpg" class="log2"/>
+</div>
+<div class="cards">  
+  <h1 class="title">ejemplo</h1>
+  <img src="./gorillas.jpg" class="log1"/>
+</div>  
+</div>
   <section>
+<div >
 
-    <h2>Promos del Mes </h2>
-<hr />    
+    <h2 id="titulo" >Promos del Mes </h2>
+</div>
+    
        <article>
-         <p>Promos en flashes</p>
+         <p class="recuadro">Promos en flashes</p>
 
          <li> 2x1 en parejas </li>
          <li>10% en flashes menores a 8cm</li>
        </article>
 
        <article>
-         <p>Promos en Tradicional</p>
+         <p class="recuadro" >Promos en Tradicional</p>
          <li>10% en tu primer tatuaje</li>
          <li>10% en tatuajes mayores a 15 cm</li>
          <li>20% en tatuajes mayores a 30 cm</li>
        </article>  
 
        <article>
-         <p>Promos en Dotwork</p>
+         <p class="recuadro">Promos en Dotwork</p>
          <li>N/A</li>
          <li>N/A</li>
 
        </article>
 
        <article>
-         <P>Promos en DarkWork</P>
+         <P class="recuadro">Promos en DarkWork</P>
          <li>10% en proyectos nuevos</li>
          <li>15% en tatuajes mayores a 15 cm</li>
          <li>20% en tatuajes mayores a 30 cm</li>
@@ -58,12 +74,12 @@
         </section>
  </main>
 
-<hr />
+
        
     </body>
 
-    <footer>
-        <p> hubicado en la CD de Aguascalientes, Ags. </p>
+    <footer class="miTextoD">
+        <p> me encuentro hubicado en la CD de Aguascalientes, Ags. </p>
 
     
     </footer>
